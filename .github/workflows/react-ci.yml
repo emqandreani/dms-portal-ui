@@ -2,9 +2,9 @@ name: React CI
 
 on:
   pull_request:
-    branches: [ main ] #can change to run on development or cicd branch
+    branches: [ main, develop ] #can change to run on development or cicd branch
   push:
-    branches: [ main ]
+    branches: [ main, develop ]
 env:
   SKIP_TEST: 'false'
   CI: true
